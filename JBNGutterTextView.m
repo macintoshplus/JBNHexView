@@ -3,7 +3,7 @@
 //  HexView
 //
 //  Created by Jean-Baptiste Nahan on 23/09/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 Jean-Baptiste Nahan. All rights reserved.
 //
 
 #import "JBNGutterTextView.h"

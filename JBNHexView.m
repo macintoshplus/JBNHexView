@@ -1,3 +1,11 @@
+//
+//  JBNHexView.m
+//  HexView
+//
+//  Created by Jean-Baptiste Nahan on 23/09/10.
+//  Copyright 2010 Jean-Baptiste Nahan. All rights reserved.
+//
+
 #import "JBNHexView.h"
 
 @implementation JBNHexView
