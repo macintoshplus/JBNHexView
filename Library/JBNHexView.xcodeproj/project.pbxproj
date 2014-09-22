@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C281EE7124D250A00E58FAA /* JBNAsciiTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EDB124D250A00E58FAA /* JBNAsciiTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EE8124D250A00E58FAA /* JBNAsciiTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EDC124D250A00E58FAA /* JBNAsciiTextView.m */; };
+		5C281EE9124D250A00E58FAA /* JBNGutterTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EDD124D250A00E58FAA /* JBNGutterTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EEA124D250A00E58FAA /* JBNGutterTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EDE124D250A00E58FAA /* JBNGutterTextView.m */; };
+		5C281EEB124D250A00E58FAA /* JBNHexAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EDF124D250A00E58FAA /* JBNHexAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EEC124D250A00E58FAA /* JBNHexAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EE0124D250A00E58FAA /* JBNHexAddress.m */; };
+		5C281EED124D250A00E58FAA /* JBNHexRepresentation.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EE1124D250A00E58FAA /* JBNHexRepresentation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EEE124D250A00E58FAA /* JBNHexRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EE2124D250A00E58FAA /* JBNHexRepresentation.m */; };
+		5C281EEF124D250A00E58FAA /* JBNHexTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EE3124D250A00E58FAA /* JBNHexTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EF0124D250A00E58FAA /* JBNHexTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EE4124D250A00E58FAA /* JBNHexTextView.m */; };
+		5C281EF1124D250A00E58FAA /* JBNHexView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C281EE5124D250A00E58FAA /* JBNHexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C281EF2124D250A00E58FAA /* JBNHexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C281EE6124D250A00E58FAA /* JBNHexView.m */; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2EE6911C19D0AC6D00E63331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE6911719D0AC6C00E63331 /* Exemple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EE690E019D0AC6C00E63331;
+			remoteInfo = Exemple;
+		};
+		2EE6911E19D0AC6D00E63331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2EE6911719D0AC6C00E63331 /* Exemple.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2EE6910119D0AC6C00E63331;
+			remoteInfo = ExempleTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		2EE6911719D0AC6C00E63331 /* Exemple.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Exemple.xcodeproj; path = ../Exemple/Exemple/Exemple.xcodeproj; sourceTree = "<group>"; };
+		32DBCF5E0370ADEE00C91783 /* JBNHexView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNHexView_Prefix.pch; sourceTree = "<group>"; };
+		5C281EDB124D250A00E58FAA /* JBNAsciiTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNAsciiTextView.h; sourceTree = "<group>"; };
+		5C281EDC124D250A00E58FAA /* JBNAsciiTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNAsciiTextView.m; sourceTree = "<group>"; };
+		5C281EDD124D250A00E58FAA /* JBNGutterTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNGutterTextView.h; sourceTree = "<group>"; };
+		5C281EDE124D250A00E58FAA /* JBNGutterTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNGutterTextView.m; sourceTree = "<group>"; };
+		5C281EDF124D250A00E58FAA /* JBNHexAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNHexAddress.h; sourceTree = "<group>"; };
+		5C281EE0124D250A00E58FAA /* JBNHexAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNHexAddress.m; sourceTree = "<group>"; };
+		5C281EE1124D250A00E58FAA /* JBNHexRepresentation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNHexRepresentation.h; sourceTree = "<group>"; };
+		5C281EE2124D250A00E58FAA /* JBNHexRepresentation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNHexRepresentation.m; sourceTree = "<group>"; };
+		5C281EE3124D250A00E58FAA /* JBNHexTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNHexTextView.h; sourceTree = "<group>"; };
+		5C281EE4124D250A00E58FAA /* JBNHexTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNHexTextView.m; sourceTree = "<group>"; };
+		5C281EE5124D250A00E58FAA /* JBNHexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBNHexView.h; sourceTree = "<group>"; };
+		5C281EE6124D250A00E58FAA /* JBNHexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBNHexView.m; sourceTree = "<group>"; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* JBNHexView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBNHexView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* JBNHexView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* JBNHexView */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				2EE6911719D0AC6C00E63331 /* Exemple.xcodeproj */,
+			);
+			name = JBNHexView;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5C281EDB124D250A00E58FAA /* JBNAsciiTextView.h */,
+				5C281EDC124D250A00E58FAA /* JBNAsciiTextView.m */,
+				5C281EDD124D250A00E58FAA /* JBNGutterTextView.h */,
+				5C281EDE124D250A00E58FAA /* JBNGutterTextView.m */,
+				5C281EDF124D250A00E58FAA /* JBNHexAddress.h */,
+				5C281EE0124D250A00E58FAA /* JBNHexAddress.m */,
+				5C281EE1124D250A00E58FAA /* JBNHexRepresentation.h */,
+				5C281EE2124D250A00E58FAA /* JBNHexRepresentation.m */,
+				5C281EE3124D250A00E58FAA /* JBNHexTextView.h */,
+				5C281EE4124D250A00E58FAA /* JBNHexTextView.m */,
+				5C281EE5124D250A00E58FAA /* JBNHexView.h */,
+				5C281EE6124D250A00E58FAA /* JBNHexView.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2EE6911819D0AC6C00E63331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE6911D19D0AC6D00E63331 /* Exemple.app */,
+				2EE6911F19D0AC6D00E63331 /* ExempleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF5E0370ADEE00C91783 /* JBNHexView_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C281EE7124D250A00E58FAA /* JBNAsciiTextView.h in Headers */,
+				5C281EE9124D250A00E58FAA /* JBNGutterTextView.h in Headers */,
+				5C281EEB124D250A00E58FAA /* JBNHexAddress.h in Headers */,
+				5C281EED124D250A00E58FAA /* JBNHexRepresentation.h in Headers */,
+				5C281EEF124D250A00E58FAA /* JBNHexTextView.h in Headers */,
+				5C281EF1124D250A00E58FAA /* JBNHexView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* JBNHexView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "JBNHexView" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JBNHexView;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = JBNHexView;
+			productReference = 8DC2EF5B0486A6940098B216 /* JBNHexView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JBNHexView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* JBNHexView */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2EE6911819D0AC6C00E63331 /* Products */;
+					ProjectRef = 2EE6911719D0AC6C00E63331 /* Exemple.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* JBNHexView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2EE6911D19D0AC6D00E63331 /* Exemple.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Exemple.app;
+			remoteRef = 2EE6911C19D0AC6D00E63331 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2EE6911F19D0AC6D00E63331 /* ExempleTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExempleTests.xctest;
+			remoteRef = 2EE6911E19D0AC6D00E63331 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C281EE8124D250A00E58FAA /* JBNAsciiTextView.m in Sources */,
+				5C281EEA124D250A00E58FAA /* JBNGutterTextView.m in Sources */,
+				5C281EEC124D250A00E58FAA /* JBNHexAddress.m in Sources */,
+				5C281EEE124D250A00E58FAA /* JBNHexRepresentation.m in Sources */,
+				5C281EF0124D250A00E58FAA /* JBNHexTextView.m in Sources */,
+				5C281EF2124D250A00E58FAA /* JBNHexView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JBNHexView_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Frameworks";
+				PRODUCT_NAME = JBNHexView;
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JBNHexView_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@loader_path/../Frameworks";
+				PRODUCT_NAME = JBNHexView;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "JBNHexView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "JBNHexView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
